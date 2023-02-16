@@ -1,0 +1,12 @@
+name: project
+runtime: go
+description: Google Cloud - Minimal, Single Google Cloud Project in Google Cloud Organization with Optional Parent Folder; In Go.
+template:
+  description: Google Cloud - Minimal, Single Google Cloud Project in Google Cloud Organization with Optional Parent Folder; In Go.
+  config:
+    google-native:parentId:
+      description: The Google Cloud Organization or Parent Folder to deploy Google Cloud Project into.
+    google-native:projectId:
+      description: The Globally Unique Id of the desired Google Cloud Project.
+    google-native:projectName:
+      description: The Name of the desired Google Cloud Project.
