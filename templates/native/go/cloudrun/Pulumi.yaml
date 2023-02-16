@@ -1,0 +1,8 @@
+name: cloudrun
+runtime: go
+description: Google Cloud - Minimal, Single Region Cloud Run Service with Hello World Container; In Go.
+template:
+  description: Google Cloud - Minimal, Single Region Cloud Run Service with Hello World Container; In Go.
+  config:
+    google-native:project:
+      description: The Google Cloud project to deploy into
